@@ -1,13 +1,5 @@
-const express = require('express');
-const app = express();
+
 const http = require('http');
-
-app.get('/', (req, res) => {
-  res.json({ message: 'Hello from your Vercel server!' });
-});
-
-module.exports = app;
-
 
 
 const server = http.createServer((req, res) => {
